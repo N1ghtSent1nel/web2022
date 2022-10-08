@@ -81,7 +81,8 @@ h2.title {
   text-decoration: uppercase;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.bonus_btn {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -254,4 +255,96 @@ h2.title {
   font-size: 17px;
   line-height: 1.18;
   color: #efefef;
+}
+
+.bonus {
+  min-height: 631px;
+  background-color: #efefef;
+  padding: 45px 0 88px 0;
+}
+
+.bonus_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bonus_text {
+  margin-top: 45px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.43;
+  text-align: center;
+  color: #252525;
+}
+
+.bonus_btn {
+  margin-top: 51px;
+}
+
+.first_webinar {
+  padding-top: 81px;
+}
+
+.first_webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first_webinar_title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+  margin-top: 36px;
+}
+
+.first_webinar_title > .webinar_datetime {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+  margin-top: 30px;
+}
+
+.first_webinar_item > p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 0.87;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 25px;
+  margin-bottom: 53px;
+}
+
+.page_footer {
+  min-height: 166px;
+  background: #1a1a1a;
+}
+
+.footer_info,
+.footer_info > a {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #888888;
+  text-align: center;
+}
+
+.footer_info .phone {
+  text-decoration: none;
+}
+
+.footer_info {
+  padding-top: 55px;
+  padding-bottom: 68px;
 }
